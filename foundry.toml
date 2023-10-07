@@ -1,6 +1,13 @@
 [profile.default]
-src = "src"
+fs_permissions = [{access = "read", path = "./out"}, {access = "read", path = "./testdata"}]
+libraries = [
+  "./node_modules/poseidon-solidity/PoseidonT3.sol:PoseidonT3:0x00000000000000000000000000000000EeEeEEee",
+]
+libs = ["lib", "./node_modules"]
 out = "out"
-libs = ["lib"]
+src = "src"
 
-# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+[profile.fork]
+libraries = [
+  "./node_modules/poseidon-solidity/PoseidonT3.sol:PoseidonT3:0x3333333C0A88F9BE4fd23ed0536F9B6c427e3B93",
+]

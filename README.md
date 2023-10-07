@@ -7,4 +7,16 @@
 
 ## link libraries in local network
 
-## link libraries in testnet or mainnet
+```bash
+pnpm run test:local
+```
+
+## link libraries in fork network
+
+```bash
+pnpm run test:fork
+```
+
+## link libraries in deployment
+
+Not done yet.

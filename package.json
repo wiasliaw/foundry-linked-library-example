@@ -1,0 +1,16 @@
+{
+  "name": "foundry-linked-library-example",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "wiasliaw <wiasliaw@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "forge build --force --size",
+    "test:local": "forge test -vvvv --force --match-contract LocalTest",
+    "test:fork": "FOUNDRY_PROFILE=fork forge test -vvvv --force --match-contract ForkTest"
+  },
+  "dependencies": {
+    "@zk-kit/incremental-merkle-tree.sol": "^1.7.0",
+    "poseidon-solidity": "^0.0.5"
+  }
+}

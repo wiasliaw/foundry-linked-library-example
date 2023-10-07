@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@zk-kit/incremental-merkle-tree.sol':
+    specifier: ^1.7.0
+    version: 1.7.0
+  poseidon-solidity:
+    specifier: ^0.0.5
+    version: 0.0.5
+
+packages:
+
+  /@zk-kit/incremental-merkle-tree.sol@1.7.0:
+    resolution: {integrity: sha512-1HF5HEQ2GVKYBAKeNlhiQ7Fb7g2x6iBQ/bBovxBQYx8xuJlD8jPJU/fn2foMVI42+BQtz2V/V4tVtn+0uNL1Rg==}
+    dependencies:
+      poseidon-solidity: 0.0.4
+    dev: false
+
+  /poseidon-solidity@0.0.4:
+    resolution: {integrity: sha512-+S6jlCXKARCFbw0MMOjfR8gcKUVeB8F3Vu5S+1zDvb8N8cVjiW6WsP9kPqNaZCxjRKakt6LKVRPdA39YbpWfdg==}
+    dev: false
+
+  /poseidon-solidity@0.0.5:
+    resolution: {integrity: sha512-NzrvSwHzvZgT4hvg2GyGqeR+UOU/eLSEt4wAoXEua+VaR7NTKKwx1X9bPlh1VMBEVEno+IWvkRBbidFGzTeAqQ==}
+    dev: false
