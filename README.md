@@ -19,4 +19,10 @@ pnpm run test:fork
 
 ## link libraries in deployment
 
-Not done yet.
+### `forge script`
+
+TBD
+
+### `forge create`
+
+TBD

@@ -1,8 +1,5 @@
 [profile.default]
-fs_permissions = [{access = "read", path = "./out"}, {access = "read", path = "./testdata"}]
-libraries = [
-  "./node_modules/poseidon-solidity/PoseidonT3.sol:PoseidonT3:0x00000000000000000000000000000000EeEeEEee",
-]
+fs_permissions = [{access = "read", path = "./out"}]
 libs = ["lib", "./node_modules"]
 out = "out"
 src = "src"
